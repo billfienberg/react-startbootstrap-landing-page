@@ -7,9 +7,14 @@ const Nav = ({ brandName = "" }) => {
         <a className="navbar-brand" href="/">
           {brandName}
         </a>
-        <a className="btn btn-primary" href="#">
-          Sign In
-        </a>
+        <div>
+          <a className="mx-1 btn btn-outline-secondary" href="#">
+            Log In
+          </a>
+          <a className="mx-1 btn btn-primary" href="#">
+            Sign Up
+          </a>
+        </div>
       </div>
     </nav>
   )
