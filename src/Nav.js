@@ -8,12 +8,12 @@ const Nav = ({ brandName = "" }) => {
           {brandName}
         </a>
         <div>
-          <a className="mx-1 btn btn-outline-secondary" href="#">
+          <button type="button" className="mx-1 btn btn-outline-secondary">
             Log In
-          </a>
-          <a className="mx-1 btn btn-primary" href="#">
+          </button>
+          <button type="button" className="mx-1 btn btn-primary">
             Sign Up
-          </a>
+          </button>
         </div>
       </div>
     </nav>
